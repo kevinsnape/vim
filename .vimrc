@@ -1,7 +1,7 @@
 set nocompatible               " be iMproved
 filetype on                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -13,7 +13,7 @@ Bundle 'gmarik/vundle'
 Bundle 'bling/vim-airline'
 Bundle 'tomasr/molokai'
 Bundle 'nvie/vim-flake8'
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ervandew/supertab'
 Bundle 'scrooloose/syntastic'
@@ -40,15 +40,15 @@ filetype plugin indent on     " required!
 :colorscheme molokai
 :set nu
 :set hlsearch
-"缩进定义  
-set shiftwidth=4  
-set tabstop=4 
-set softtabstop=4  
-set expandtab  
-set smarttab  
-set backspace=2     "退格键可以删除任何东西  
+"缩进定义
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab
+set smarttab
+set backspace=2     "退格键可以删除任何东西
 "显示TAB字符为
-set list  
+set list
 set list listchars=tab:>-,trail:+
 
 autocmd FileType python setlocal et | setlocal sta | setlocal sw=4 | setl tw=76
